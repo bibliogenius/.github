@@ -2,18 +2,23 @@
 
 **Your library, your rules.** A decentralized, privacy-first personal library manager.
 
+🌐 [**bibliogenius.org**](https://bibliogenius.org)
+
 [![Status](https://img.shields.io/badge/status-v1.0.0--beta.1-blue)](https://github.com/bibliogenius)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ## ✨ What is BiblioGenius?
 
-BiblioGenius is a **self-hosted ecosystem** for managing your personal book collection and sharing it with friends — without Big Tech.
+BiblioGenius is a **self-hosted ecosystem** for managing your personal book collection and sharing it with your network.
 
 - 📖 **Catalog your books** via ISBN scan or manual entry
 - 🔄 **Sync across devices** on your local network
 - 🤝 **Share with friends** peer-to-peer, no central server
+- 🤖 **Speak with your library** using **MCP (Model Context Protocol)** for local AI
 - 🏆 **Gamification** — earn badges and level up your librarian status
-- 🔒 **Privacy-first** — you own your data
+- 🔒 **Privacy-first** — Digital Sovereignty by design
+
+> **Supported by the [NLnet foundation](https://nlnet.nl/) (NGI Zero Commons Fund)** to build a Human-centric Internet.
 
 ## 🏗️ Ecosystem
 
@@ -27,16 +32,17 @@ BiblioGenius is a **self-hosted ecosystem** for managing your personal book coll
 
 | Version | Name | Target | Focus |
 |---------|------|--------|-------|
-| **v1.0.0-beta** | Sovereign Librarian | ✅ Now | Personal library + LAN sync |
+| **v1.0.0-beta** | Sovereign Librarian | ✅ Done | Personal library + LAN sync |
 | v1.0.0 | Local Network | Q1 2026 | Stable P2P on local network |
-| v2.0.0 | Trusted Network | Q2-Q3 2026 | Global P2P + Social Features |
+| v1.5.0 | AI Librarian | Q2 2026 | **MCP Integration** (Local AI Agents) |
+| v2.0.0 | Trusted Network | Q3 2026 | Global P2P + Social Features |
 
 ### 🔮 Coming in v2.0
 
 - 🌐 **True P2P** — Connect with friends anywhere (NAT traversal with libp2p)
+- 🤖 **MCP Server** — Expose your library as a resource to local AI agents (Claude, Ollama)
 - 🔐 **Crypto Identity** — Ed25519 keypairs for trust verification
 - 📱 **Social Feed** — See what your friends are reading
-- 🤖 **Local AI** — Chat with your library using an offline LLM
 - 🏛️ **Historical Theme** — Immersive "Old Library" ambiance
 
 ## 🚀 Quick Start
