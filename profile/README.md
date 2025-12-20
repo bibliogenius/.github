@@ -4,7 +4,7 @@
 
 🌐 [**bibliogenius.org**](https://bibliogenius.org)
 
-[![Status](https://img.shields.io/badge/status-v1.0.0--beta.1-blue)](https://github.com/bibliogenius)
+[![Status](https://img.shields.io/badge/status-in_development-blue)](https://github.com/bibliogenius)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ## ✨ What is BiblioGenius?
@@ -32,7 +32,7 @@ BiblioGenius is a **self-hosted ecosystem** for managing your personal book coll
 
 | Version | Name | Target | Focus |
 |---------|------|--------|-------|
-| **v1.0.0-beta** | Sovereign Librarian | ✅ Done | Personal library + LAN sync |
+| **In Development** | Sovereign Librarian | ✅ Now | Personal library + LAN sync |
 | v1.0.0 | Local Network | Q1 2026 | Stable P2P on local network |
 | v1.5.0 | AI Librarian | Q2 2026 | **MCP Integration** (Local AI Agents) |
 | v2.0.0 | Trusted Network | Q3 2026 | Global P2P + Social Features |
