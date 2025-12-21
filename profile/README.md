@@ -54,6 +54,23 @@ git clone https://github.com/bibliogenius/bibliogenius.git
 cd bibliogenius && cargo run
 ```
 
+## 🧪 Testing Status
+
+> [!NOTE]
+> **Currently tested on:**
+>
+> - ✅ **macOS** (primary development platform)
+> - ✅ **iPad** (limited testing)
+>
+> **Looking for testers on:**
+>
+> - 🔎 **iOS** (iPhone)
+> - 🔎 **Android** (phones & tablets)
+> - 🔎 **Windows**
+> - 🔎 **Linux**
+>
+> If you can help test BiblioGenius on any of these platforms, please [open an issue](https://github.com/bibliogenius/bibliogenius-app/issues) with your feedback!
+
 ## 🤝 Contributing
 
 We welcome contributions! Feel free to open issues or pull requests on any repository.
