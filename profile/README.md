@@ -32,15 +32,13 @@ BiblioGenius is a **self-hosted ecosystem** for managing your personal book coll
 
 | Version | Name | Target | Focus |
 |---------|------|--------|-------|
-| **In Development** | Sovereign Librarian | ✅ Now | Personal library + LAN sync |
-| v1.0.0 | Local Network | Q1 2026 | Stable P2P on local network |
-| v1.5.0 | AI Librarian | Q2 2026 | **MCP Integration** (Local AI Agents) |
-| v2.0.0 | Trusted Network | Q3 2026 | Global P2P + Social Features |
+| **v0.5.0-alpha** | **Pre-Alpha** | ✅ **Live** | **MCP Integration** (Implemented), Core Library, LAN Sync (WIP) |
+| **v1.0.0** | Connected Library | 🚧 Q1 2026 | **P2P Book Sharing** (Local/mDNS), Social Borrowing |
+| **v2.0.0** | Freedom Network | Q3 2026 | Global P2P (Internet) via **Iroh**, Trusted Contacts |
 
 ### 🔮 Coming in v2.0
 
-- 🌐 **True P2P** — Connect with friends anywhere (NAT traversal with libp2p)
-- 🤖 **MCP Server** — Expose your library as a resource to local AI agents (Claude, Ollama)
+- 🌐 **Global P2P** — Connect with friends anywhere (NAT traversal with **Iroh**)
 - 🔐 **Crypto Identity** — Ed25519 keypairs for trust verification
 - 📱 **Social Feed** — See what your friends are reading
 - 🏛️ **Historical Theme** — Immersive "Old Library" ambiance
