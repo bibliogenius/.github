@@ -18,26 +18,17 @@ BiblioGenius is a **self-hosted ecosystem** for managing your personal book coll
 - 🏆 **Gamification** — earn badges and level up your librarian status
 - 🔒 **Privacy-first** — Digital Sovereignty by design
 
-> **Supported by the [NLnet foundation](https://nlnet.nl/) (NGI Zero Commons Fund)** to build a Human-centric Internet.
-
 ## 🏗️ Ecosystem
 
 | Component | Description | Tech |
-|-----------|-------------|------|
+| --------- | ----------- | ---- |
 | [**bibliogenius**](https://github.com/bibliogenius/bibliogenius) | Autonomous library server | Rust, Axum, SQLite |
-| [**bibliogenius-app**](https://github.com/bibliogenius/bibliogenius-app) | Mobile & Desktop apps | Flutter |
+| [**bibliogenius-app**](https://github.com/bibliogenius/bibliogenius-app) | Mobile & Desktop apps | Flutter + Rust (FFI) |
 | [**bibliogenius-hub**](https://github.com/bibliogenius/bibliogenius-hub) | Optional central directory | Symfony |
 
-## 🗺️ Roadmap
+## 🗺️ Roadmap and Ideas
 
-| Version | Name | Target | Focus |
-|---------|------|--------|-------|
-| **v0.5.0-alpha** | **Pre-Alpha** | ✅ **Live** | **MCP Integration** (Implemented), Core Library, LAN Sync (WIP) |
-| **v1.0.0** | Connected Library | 🚧 Q1 2026 | **P2P Book Sharing** (Local/mDNS), Social Borrowing |
-| **v2.0.0** | Freedom Network | Q3 2026 | Global P2P (Internet) via **Iroh**, Trusted Contacts |
-
-### 🔮 Coming in v2.0
-
+- 🚧 **P2P Book Sharing** — Connect libraries on local network (mDNS)
 - 🌐 **Global P2P** — Connect with friends anywhere (NAT traversal with **Iroh**)
 - 🔐 **Crypto Identity** — Ed25519 keypairs for trust verification
 - 📱 **Social Feed** — See what your friends are reading
@@ -45,14 +36,26 @@ BiblioGenius is a **self-hosted ecosystem** for managing your personal book coll
 
 ## 🚀 Quick Start
 
-```bash
-# Download the latest release for your platform
-# https://github.com/bibliogenius/bibliogenius-app/releases
+### For Users
 
-# Or build from source:
-git clone https://github.com/bibliogenius/bibliogenius.git
-cd bibliogenius && cargo run
+Download the latest release for your platform:
+<https://github.com/bibliogenius/bibliogenius-app/releases>
+
+### For Developers
+
+```bash
+# Clone the monorepo
+git clone https://github.com/bibliogenius/bibliotech.git
+cd bibliotech/bibliogenius-app
+
+# Run the app (Rust compiles automatically!)
+flutter pub get
+flutter run -d macos
 ```
+
+> **Note**: No separate `cargo run` is needed. The Rust backend is embedded in the Flutter app via FFI (Cargokit handles compilation automatically).
+
+See [DEVELOPMENT_SETUP.md](https://github.com/bibliogenius/bibliogenius-docs/blob/main/docs/technical/DEVELOPMENT_SETUP.md) for detailed instructions.
 
 ## 🧪 Testing Status
 
