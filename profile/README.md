@@ -6,7 +6,7 @@
 
 [![Status](https://img.shields.io/badge/status-active-success)](https://github.com/bibliogenius)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/bibliogenius/bibliogenius/blob/main/LICENSE)
-[![Latest Version](https://img.shields.io/github/v/tag/bibliogenius/bibliogenius-app?label=version&color=blue)](https://github.com/bibliogenius/bibliogenius-app/tags)
+[![Latest Version](https://img.shields.io/github/v/tag/bibliogenius/bibliogenius-app?sort=semver&label=version&color=blue)](https://github.com/bibliogenius/bibliogenius-app/tags)
 
 ---
 
