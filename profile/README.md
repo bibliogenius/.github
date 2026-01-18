@@ -43,16 +43,20 @@ BiblioGenius is a **self-hosted ecosystem** for managing your personal book coll
 ## 🚀 Quick Start for Developers
 
 ```bash
-# Clone the app repository
-git clone https://github.com/bibliogenius/bibliogenius-app.git
-cd bibliogenius-app
+# Create a workspace folder
+mkdir bibliogenius-workspace && cd bibliogenius-workspace
 
-# Run the app (Rust compiles automatically!)
+# Clone both repositories (they must be siblings)
+git clone https://github.com/bibliogenius/bibliogenius.git       # Rust backend
+git clone https://github.com/bibliogenius/bibliogenius-app.git   # Flutter app
+
+# Run the app (Rust compiles automatically via FFI!)
+cd bibliogenius-app
 flutter pub get
 flutter run
 ```
 
-> **Note**: No separate `cargo run` is needed. The Rust backend is embedded in the Flutter app via FFI.
+> **Note**: The Flutter app expects `bibliogenius` (Rust) as a sibling folder. No separate `cargo run` is needed — the backend compiles automatically during `flutter run`.
 
 ## 🤝 Contributing
 
