@@ -4,8 +4,22 @@
 
 🌐 [**bibliogenius.org**](https://bibliogenius.org)
 
-[![Status](https://img.shields.io/badge/status-in_development-blue)](https://github.com/bibliogenius)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success)](https://github.com/bibliogenius)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/bibliogenius/bibliogenius/blob/main/LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/bibliogenius/bibliogenius-app?label=latest%20release&color=blue)](https://github.com/bibliogenius/bibliogenius-app/releases)
+
+---
+
+## 🎯 I Want To
+
+| Goal | Go To Repository |
+| :--- | :--- |
+| **📱 Use the App** | [**bibliogenius-app**](https://github.com/bibliogenius/bibliogenius-app) (iOS, Android, Desktop) |
+| **⚙️ Hack the Backend** | [**bibliogenius**](https://github.com/bibliogenius/bibliogenius) (Rust Core) |
+| **🐳 Set Up Dev Env** | [**bibliogenius-docker**](https://github.com/bibliogenius/bibliogenius-docker) (Docker Compose) |
+| **📖 Read Docs** | [**bibliogenius-public**](https://github.com/bibliogenius/bibliogenius-public) (Website) |
+
+---
 
 ## ✨ What is BiblioGenius?
 
@@ -18,65 +32,34 @@ BiblioGenius is a **self-hosted ecosystem** for managing your personal book coll
 - 🏆 **Gamification** — earn badges and level up your librarian status
 - 🔒 **Privacy-first** — Digital Sovereignty by design
 
-## 🏗️ Ecosystem
+## 📱 Supported Platforms
 
-| Component | Description | Tech |
-| --------- | ----------- | ---- |
-| [**bibliogenius**](https://github.com/bibliogenius/bibliogenius) | Autonomous library server | Rust, Axum, SQLite |
-| [**bibliogenius-app**](https://github.com/bibliogenius/bibliogenius-app) | Mobile & Desktop apps | Flutter + Rust (FFI) |
-| [**bibliogenius-hub**](https://github.com/bibliogenius/bibliogenius-hub) | Optional central directory | Symfony |
+- ✅ **macOS**
+- ✅ **Windows**
+- ✅ **Linux**
+- ✅ **iOS**
+- ✅ **Android**
 
-## 🗺️ Roadmap and Ideas
-
-- 🚧 **P2P Book Sharing** — Connect libraries on local network (mDNS)
-- 🌐 **Global P2P** — Connect with friends anywhere (NAT traversal with **Iroh**)
-- 🔐 **Crypto Identity** — Ed25519 keypairs for trust verification
-- 📱 **Social Feed** — See what your friends are reading
-- 🏛️ **Historical Theme** — Immersive "Old Library" ambiance
-
-## 🚀 Quick Start
-
-### For Users
-
-Download the latest release for your platform:
-<https://github.com/bibliogenius/bibliogenius-app/releases>
-
-### For Developers
+## 🚀 Quick Start for Developers
 
 ```bash
-# Clone the monorepo
-git clone https://github.com/bibliogenius/bibliotech.git
-cd bibliotech/bibliogenius-app
+# Clone the app repository
+git clone https://github.com/bibliogenius/bibliogenius-app.git
+cd bibliogenius-app
 
 # Run the app (Rust compiles automatically!)
 flutter pub get
-flutter run -d macos
+flutter run
 ```
 
-> **Note**: No separate `cargo run` is needed. The Rust backend is embedded in the Flutter app via FFI (Cargokit handles compilation automatically).
-
-See [DEVELOPMENT_SETUP.md](https://github.com/bibliogenius/bibliogenius-docs/blob/main/docs/technical/DEVELOPMENT_SETUP.md) for detailed instructions.
-
-## 🧪 Testing Status
-
-> [!NOTE]
-> **Currently tested on:**
->
-> - ✅ **macOS** (primary development platform)
-> - ✅ **iPad** (limited testing)
->
-> **Looking for testers on:**
->
-> - 🔎 **iOS** (iPhone)
-> - 🔎 **Android** (phones & tablets)
-> - 🔎 **Windows**
-> - 🔎 **Linux**
->
-> If you can help test BiblioGenius on any of these platforms, please [open an issue](https://github.com/bibliogenius/bibliogenius-app/issues) with your feedback!
+> **Note**: No separate `cargo run` is needed. The Rust backend is embedded in the Flutter app via FFI.
 
 ## 🤝 Contributing
 
-We welcome contributions! Feel free to open issues or pull requests on any repository.
+We welcome contributions!
+
+- **Discussions**: [Join the conversation](https://github.com/bibliogenius/bibliogenius/discussions)
+- **Issues**: Open a ticket in the relevant repository.
 
 ## 📄 License
 
