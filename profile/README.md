@@ -61,7 +61,6 @@ flutter run
 
 We welcome contributions!
 
-- **Discussions**: [Join the conversation](https://github.com/bibliogenius/bibliogenius/discussions)
 - **Issues**: Open a ticket in the relevant repository.
 
 ## 📄 License
