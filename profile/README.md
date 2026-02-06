@@ -16,7 +16,7 @@
 | :--- | :--- |
 | **📱 Use the App** | [**bibliogenius-app**](https://github.com/bibliogenius/bibliogenius-app) (iOS, Android, Desktop) |
 | **⚙️ Hack the Backend** | [**bibliogenius**](https://github.com/bibliogenius/bibliogenius) (Rust Core) |
-| **📖 Read Docs** | [**bibliogenius-public**](https://github.com/bibliogenius/bibliogenius-public) (Website) |
+| **📖 Read Docs** | [**bibliogenius-website**](https://github.com/bibliogenius/bibliogenius-website) (Website) |
 
 ---
 
